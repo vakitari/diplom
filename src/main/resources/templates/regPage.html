@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form sec:authorize="" th:action="@{/registration}" method="post">
+    <input name="username">
+    <input name="password">
+    <button type="submit" value="зарегаться"></button>
+</form>
+</body>
+</html>
